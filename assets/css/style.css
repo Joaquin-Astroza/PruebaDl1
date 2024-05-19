@@ -21,13 +21,22 @@ aside, header, main, nav, footer{
 }
 header{
     grid-area: header;
-    background-color: #8c94a7;
+    background-color: #3e92cc ;
     display: flex;
-    flex-direction: column ;
+    flex-direction: row ;
     justify-content: center;
     align-items: center;
     color: white;
     padding: 5px;
+    gap: 10px;
+}
+header input{
+    outline: none;
+    height: 40px;
+    width: 300px;
+}
+.botonbuscar{
+    
 }
 aside{
     grid-area: aside; 
